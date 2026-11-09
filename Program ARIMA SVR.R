@@ -5,7 +5,7 @@ library(tseries)
 library(forecast)
 library(lmtest)
 library(zoo)
-setwd("D:/KULIAH/SKRIPSI")
+# setwd("folder/data/anda")  # sesuaikan dengan lokasi file week2a.xlsx
 
 #INPUTDATA
 data=read_excel("week2a.xlsx")
@@ -53,7 +53,7 @@ if (!requireNamespace("openxlsx", quietly = TRUE)) {
 library(openxlsx)
 
 # Replace "output_file.xlsx" with the desired file name and path
-output_file <- "D://KULIAH/SKRIPSI/Data/Data TESTING ARIMA 2.xlsx"
+output_file <- "Data TESTING ARIMA 2.xlsx"
 
 # Convert trainIDRbox to a data frame if it's not already
 trainIDRbox_df <- as.data.frame(modelarima021foretest^-1)

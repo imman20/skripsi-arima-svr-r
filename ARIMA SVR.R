@@ -8,7 +8,7 @@ library(zoo)
 
 ##METODE ARIMA
 
-setwd("D:/KULIAH/SKRIPSI")
+# setwd("folder/data/anda")  # sesuaikan dengan lokasi file week2a.xlsx
 
 #INPUTDATA
 data=read_excel("week2a.xlsx")
@@ -219,7 +219,7 @@ legend("topright",
 
 ## METODE SVR
 
-setwd("D:/KULIAH/SKRIPSI")
+# setwd("folder/data/anda")  # sesuaikan dengan lokasi file week2a.xlsx
 data<-import("week2.xlsx")
 
 View(data)
